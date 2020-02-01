@@ -25,6 +25,9 @@ aside .wrapper {
   color: white;
 }
 </style>
+<svelte:head>
+  <meta name="description" content="Curriculum vitæ de Fabien Jacq" />
+</svelte:head>
 <Title name="Fabien Jacq" />
 <main>
   <aside>
@@ -34,8 +37,8 @@ aside .wrapper {
     </div>
   </aside>
   <section>
+    <Experiences />
     <Skills />
     <Trainings />
-    <Experiences />
   </section>
 </main>

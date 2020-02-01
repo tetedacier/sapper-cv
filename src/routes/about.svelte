@@ -1,7 +1,8 @@
 <svelte:head>
-	<title>About</title>
+	<title>À propos de ce site</title>
+  <meta name="description" content="Motiviation et utilité de ce site" />
 </svelte:head>
 
-<h1>About this site</h1>
+<h1>À propos de ce site</h1>
 
-<p>This is the 'about' page. There's not much here.</p>
+<p>Ce site est destiné à héberger, créer, éditer et partager des CV en ligne.</p>
