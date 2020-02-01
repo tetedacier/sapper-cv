@@ -26,6 +26,7 @@ aside .wrapper {
 }
 </style>
 <svelte:head>
+  <title>Curriculum vitæ de Fabien Jacq</title>
   <meta name="description" content="Curriculum vitæ de Fabien Jacq" />
 </svelte:head>
 <Title name="Fabien Jacq" />
