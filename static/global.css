@@ -46,14 +46,17 @@ section>div>ul {
 
 section ul {
   padding-left: 1em;
-  list-style-type: '➡️';
+  list-style-type: '➡️ ';
 }
+
 section ul>li {
   margin: .6em;
 }
+
 section div {
   break-inside: avoid;
 }
+
 /*print specificity*/
 
 @media (min-width: 400px) {
