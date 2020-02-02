@@ -33,6 +33,11 @@ code {
   global style
 */
 
+a:focus {
+  background-color: #CCCCCC;
+  color: #000000;
+}
+
 h2 {
   margin: .7em 0;
 }
