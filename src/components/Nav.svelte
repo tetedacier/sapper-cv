@@ -56,7 +56,7 @@
 <nav>
 	<ul>
 		<li><a class:selected='{segment === undefined}' href='.'>CV de l'auteur</a></li>
-		<li><a class:selected='{segment === "about"}' href='about'>à Propos</a></li>
+		<li><a class:selected='{segment === "about"}' href='about'>À propos</a></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->

@@ -22,7 +22,7 @@
   <meta name="description" content="Article sur la thématique des curriculum vitæ" />
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1>Article récents</h1>
 {#if posts.length > 0}
   <ul>
     {#each posts as post}
