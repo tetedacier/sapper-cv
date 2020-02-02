@@ -7,22 +7,24 @@ import Trainings from '../components/Rubric/trainings.svelte'
 import Experiences from '../components/Rubric/experiences.svelte'
 </script>
 <style>
-main{
+.layout{
   display: flex;
 }
-aside {
+
+.personal-information {
   flex: 1;
   margin-right: 1em;
 }
 
-main>section {
-  flex: 2;
-}
-aside .wrapper {
+.personal-information .wrapper {
   padding: 0 1em 1em;
   background: #333333;
   border: 1px solid #333333;
   color: white;
+}
+
+.curriculum {
+  flex: 2;
 }
 </style>
 <svelte:head>
@@ -30,16 +32,16 @@ aside .wrapper {
   <meta name="description" content="Curriculum vitæ de Fabien Jacq" />
 </svelte:head>
 <Title name="Fabien Jacq" />
-<main>
-  <aside>
+<section class="layout">
+  <section class="personal-information">
     <div class="wrapper">
       <Contact />
       <Presentation />
     </div>
-  </aside>
-  <section>
+  </section>
+  <section class="curriculum">
     <Experiences />
     <Skills />
     <Trainings />
   </section>
-</main>
+</section>
