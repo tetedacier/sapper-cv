@@ -34,8 +34,8 @@ code {
 */
 
 a:focus {
-  background-color: #CCCCCC;
-  color: #000000;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 h2 {
